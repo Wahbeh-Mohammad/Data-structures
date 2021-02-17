@@ -70,11 +70,12 @@ class DoublyLinkedList:
             print(node.data,end=' -> ')
             node = node.next
         print(None)
-        
-L = DoublyLinkedList()
-L.append(5);L.append(10);L.append(12)
-L.append(1);L.append(50);L.append(1123)
-L.printList()
-print(L.min_item())
-L.delete_min()
-L.printList()
+
+if __name__ == '__main__':
+    L = DoublyLinkedList()
+    L.append(5);L.append(10);L.append(12)
+    L.append(1);L.append(50);L.append(1123)
+    L.printList()
+    print(L.min_item())
+    L.delete_min()
+    L.printList()
