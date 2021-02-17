@@ -80,17 +80,7 @@ class Set(object):
             return curr
         else:
             raise StopIteration
-    
-    def __setitem__(self,index,value):
-        if 0<=index<len(self):
-            self.__items[index] = value
-        raise IndexError
-    
-    def __getitem__(self,index):
-        if 0<=index<len(self):
-            return self.__items[index]
-        raise IndexError
-    
+            
     def __str__(self):
         if self.length()>100:
             return "<"+",".join([str(i) for i in self.__items[:3]])+" ... "+",".join([str(i) for i in self.__items[-3:]])+">"
