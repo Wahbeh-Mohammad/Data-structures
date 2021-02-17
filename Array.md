@@ -29,4 +29,22 @@ class IndexOutofRange(Error):
         Error.__init__(self,desc)
 ```
 
-## _ArrayIterator
+# _ArrayIterator
+## This is a helper class that allows the Main class {Array} to become iterable.
+```
+class _ArrayIterator(object):
+    def __init__(self,theArray):
+        self._arrayref = theArray
+        self.curNdx = 0
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        if self.curNdx<len(self._arrayref):
+            entry = self._arrayref[self.curNdx]
+            self.curNdx+=1
+            return entry
+        else:
+            raise StopIteration
+```
