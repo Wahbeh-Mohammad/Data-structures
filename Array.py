@@ -105,5 +105,5 @@ if __name__ == '__main__':
         
     # Class Array can be used to make a Arrays that have higher dimensions
     # 2d Array Example
-    Ar2d = Array(5,Array(5,Array(5)))
+    Ar2d = Array(5,Array(5))
     print(Ar2d)
