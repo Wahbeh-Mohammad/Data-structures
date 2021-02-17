@@ -48,3 +48,17 @@ class _ArrayIterator(object):
         else:
             raise StopIteration
 ```
+
+# Array
+## The Implementation of the ADT Array has a set of functions and a set of variables
+### Variables
+- self._elements: The Memory allocated for the elements of the array.
+- self._size: The Size of the array.
+### Functions
+- __init__: method to initialize the array with a size and a specific value.
+- __len__: method to return the size of the array.
+- __iter__: method for the class to become iterable
+- __getitem__: method to retrieve items at a certain index
+- __setitem__: method to set the value at a certain index
+- _clear: method to set the initial values of the array
+- __str__: method to return a string type representation of the array's contents
