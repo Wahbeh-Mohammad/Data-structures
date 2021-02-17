@@ -7,10 +7,11 @@
 - *Stack
 - *Map
 - *Set
-- Queue
-- Stack & Linked Stack
+- *Queue
+- *Stack & Linked Stack
 - Linked List
 - Linked Queue
 - Circular Queue
 - Doubly Linked List
 - Matrix
+## * Marked Data structures are explained in a corresponding .md file
