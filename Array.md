@@ -8,7 +8,7 @@
 ## Error Class
 ```
 class Error(Exception):
-  """ """
+  """ Base Class Error """
   def __init__(self,desc):
       self.desc = desc
 
