@@ -16,7 +16,7 @@ class Error(Exception):
       return self.desc
 ```
 ## This is a base class for custom Exceptions/Errors
-## It allows us to create some custom errors such as these below.
+## It allows us to define some custom errors such as these below.
 ```
 class InvalidSize(Error):
     """ Invalid Size: Raised when the size passed is less than or equal to 0 """
@@ -28,3 +28,5 @@ class IndexOutofRange(Error):
     def __init__(self,desc):
         Error.__init__(self,desc)
 ```
+
+## _ArrayIterator
