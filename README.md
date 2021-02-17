@@ -6,3 +6,4 @@
 - DynamicArray
 - Stack
 - Map
+- Queue
