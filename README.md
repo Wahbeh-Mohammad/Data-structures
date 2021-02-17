@@ -5,3 +5,4 @@
 - Array2D << you can construct higher dimensions of the array using the base class Array
 - DynamicArray
 - Stack
+- Map
