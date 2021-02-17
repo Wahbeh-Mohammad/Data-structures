@@ -5,7 +5,7 @@ import sys
 # Helper Classes & Custom Errors
 # Base error class
 class Error(Exception):
-    """ """
+    """ Base Class Error """
     def __init__(self,desc):
         self.desc = desc
     
@@ -13,12 +13,12 @@ class Error(Exception):
         return self.desc
 
 class InvalidSize(Error):
-    """ """
+    """ Invalid Size: Raised when the size passed is less than or equal to 0 """
     def __init__(self,desc):
         Error.__init__(self,desc)
 
 class IndexOutofRange(Error):
-    """ """
+    """ IndexOutofRange: Raised when the index is out of bounds"""
     def __init__(self,desc):
         Error.__init__(self,desc)
 
