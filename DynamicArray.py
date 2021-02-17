@@ -112,12 +112,3 @@ if __name__ == '__main__':
         da[i] = i
     print(da)            
     print(da.get_Capacity())
-            
-            
-            
-            
-            
-            
-            
-            
-            
